@@ -1,0 +1,17 @@
+# Copy to config.yaml and edit. Env vars override these when set.
+
+max_bookmark_pages: 20
+quiet_when_empty: true
+
+classify:
+  use_llm: false
+  # OpenAI-compatible base URL (no trailing path). Used only if use_llm true.
+  llm_base_url: null
+
+discord:
+  enabled: false
+  throttle_seconds: 2.0
+  # forum_channel_id: "0"
+  # tag_ids:
+  #   ai-llm: "0"
+  #   other: "0"

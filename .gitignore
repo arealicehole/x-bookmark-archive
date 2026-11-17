@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.pyc
+__pycache__/
+.venv/
+venv/
+state/*
+!state/.gitkeep
+digest/*
+!digest/.gitkeep
+oauth2_tokens.json
+*.log
+.DS_Store
+.idea/
+.vscode/
